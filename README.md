@@ -15,12 +15,12 @@ Ensure you have [Go](https://go.dev/doc/install) installed.
 
 1. Clone or navigate to the project directory:
    ```bash
-   cd /ascii-art
+   cd /Go_artify
    ```
 
 2. Build the project:
    ```bash
-   go build -o ascii-art
+   go build -o go_artify
    ```
 
 ## Usage
@@ -28,13 +28,13 @@ Ensure you have [Go](https://go.dev/doc/install) installed.
 Run the program with a single string argument. Use `\n` for new lines.
 
 ```bash
-./ascii-art "Hello\nWorld"
+./go_artify "Hello\nWorld"
 ```
 
 ### Example
 
 ```bash
-$ ./ascii-art "Hi"
+$ ./go_artify "Hi"
  _    _  _ 
 | |  | || |
 | |__| || |
@@ -49,6 +49,7 @@ $ ./ascii-art "Hi"
 The tool relies on template files where each character is represented by 8 lines of ASCII art:
 - `standard.txt` (Default)
 - `shadow.txt`
+- `thinkertoy.txt`
 
 Currently, `standard.txt` is embedded by default.
 
